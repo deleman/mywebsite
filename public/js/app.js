@@ -6547,7 +6547,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.navbar span[data-v-6dde423b] {\r\n    justify-content: center;\n}\r\n", ""]);
+exports.push([module.i, "\n.navbar span[data-v-6dde423b] {\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\n}\r\n", ""]);
 
 // exports
 
@@ -6566,7 +6566,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.navbar span[data-v-0ce841ec] {\n    justify-content: center;\n}\n", ""]);
+exports.push([module.i, "\n.navbar span[data-v-0ce841ec] {\n    -webkit-box-pack: center;\n            justify-content: center;\n}\n", ""]);
 
 // exports
 
@@ -55484,8 +55484,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\store\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\store\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\myweb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\myweb\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ }),
