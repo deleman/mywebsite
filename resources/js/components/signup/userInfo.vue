@@ -3,9 +3,9 @@
         <button type="button" v-on:click.prevent="toggleShow()" class="btn btn-secondary dropdown-toggle" :class="showtext" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
             login
         </button>
-        <div class="dropdown-menu dropdown-menu-lg-right" :class="showtext">
+        <div class="dropdown-menu dropdown-menu-right dropdown-menu-left" :class="showtext">
             <div class="card" style="width: 18rem;">
-                <img :src="imagesrc" class="card-img-top" alt="...">
+                <img :src="imagesrc" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-center m-auto">User Name</h5>
                     <p class="card-text">one line about user quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -53,5 +53,8 @@
 
 
 <style scoped>
-
+.dropdown-menu-left {
+  right: auto !important;
+  left: 0 !important;
+}
 </style>
