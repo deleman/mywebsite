@@ -36,8 +36,14 @@ const router = new VueRouter({
 import newpost from './components/signup/NewPost.vue'
 
 import exampleme from './components/ExampleComponent.vue'
+import userinfo from './components/signup/userInfo.vue'
+
+
 import useme from './components/Use.vue'
 
+
+
+//import vue files
 //general components
 require('./General.js');
 
@@ -49,6 +55,9 @@ const app = new Vue({
         mynavbar,
         exampleme,
         newpost,
+        userinfo,
+
+
         useme
     },
 }).$mount('#app')

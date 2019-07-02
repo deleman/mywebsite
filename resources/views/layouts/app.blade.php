@@ -76,6 +76,8 @@
 
 
                     </ul>
+                    <userinfo imagesrc="{{ asset('UserImage/2533.png')}}"></userinfo>
+
                 </div>
             </div>
         </nav>
